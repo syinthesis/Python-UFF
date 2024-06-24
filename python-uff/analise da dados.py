@@ -1,0 +1,7 @@
+n1 = int(input("Digite um numero: "))
+n2 = int(input("Digite outro numero: "))
+n3 = int(input("Digite mais um numero: "))
+n4 = int(input("Digite o ultimo numero: "))
+tupla = (n1,n2,n3,n4)
+print(f"voce digitou os valores {tupla}")
+print(f"o numero {tupla[0]} apareceu {tupla.count(tupla[0])} vezes")
